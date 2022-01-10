@@ -1,0 +1,15 @@
+# Git ignore File based on Wordpress theme development in JetBrains IDE (Web and PHP Storm) on MacOS
+
+#MacOS Files
+.DS_Store
+
+# Dependency and Vendors directories
+package-lock.json
+node_modules
+
+composer.lock
+vendor
+
+# JetBrains Files and Folders
+.idea
+style.css.map
